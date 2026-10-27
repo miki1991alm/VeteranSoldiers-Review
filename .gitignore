@@ -1,0 +1,16 @@
+/tools/
+/build/
+/sandbox/
+/logs/
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.zip
+*.dll
+*.exe
+*.pdb
+*.bin
+*.env
+.env*

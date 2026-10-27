@@ -1,0 +1,594 @@
+{
+  "Version": "1.0.1",
+  "Purpose": "Own-source Nexus moderation review snapshot",
+  "SourceCommit": "a3cae5f77d3205c50ba06588483573eb5a8e9dce",
+  "FrozenPublicZipSHA256": "4497702915363F31F1EF5425903D38C8327A7DE3CBBD6EB613273E5C69950277",
+  "PreviousSourceZipSHA256": "B4D399E686645058F46041C072A13D32CC2859EA9D927DA69D16289510623AF6",
+  "Files": [
+    {
+      "Path": ".gitattributes",
+      "Bytes": 88,
+      "SHA256": "3450BD0D244EECC6F329B7A8DF112EA8541C0EDDC73B630A03DBD33A57229F05",
+      "Origin": "New moderator review documentation/configuration"
+    },
+    {
+      "Path": ".gitignore",
+      "Bytes": 109,
+      "SHA256": "D8C371CA14C2809F894690A0A397E8D667A6615F7C2A4920DB8F9B5EAAC531D5",
+      "Origin": "New moderator review documentation/configuration"
+    },
+    {
+      "Path": "BUILD.md",
+      "Bytes": 6120,
+      "SHA256": "752C7464ED1420B76BA129C8F12D1098B14D4AF015B8B4300D3A6DD4E4D3F903",
+      "Origin": "New moderator review documentation/configuration"
+    },
+    {
+      "Path": "Directory.Build.props",
+      "Bytes": 1193,
+      "SHA256": "56BA9EE62C8F56CD7D4AB660FD6F444816100BE287CD0F43548EFF53776212FA",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "global.json",
+      "Bytes": 104,
+      "SHA256": "27F32DB56696904B4739CFA792A6EF1205607DDD72D9876EEA1F98B43B766835",
+      "Origin": "New moderator review documentation/configuration"
+    },
+    {
+      "Path": "player-package/CHANGELOG.md",
+      "Bytes": 19518,
+      "SHA256": "59F7F87A5F90F66205C2E0AE2DEEB68F8CB122E50EBC5651F9AD52CACC01FE12",
+      "Origin": "Frozen Nexus file 31 text/script/metadata entry"
+    },
+    {
+      "Path": "player-package/com.veteransoldiers.mod.cfg.example",
+      "Bytes": 1378,
+      "SHA256": "6915DF05A55693F480A0ADF86DF554FF6E8CB599D58D1859BDCB29969192DC24",
+      "Origin": "Frozen Nexus file 31 text/script/metadata entry"
+    },
+    {
+      "Path": "player-package/CREDITS_AND_PERMISSIONS.md",
+      "Bytes": 3199,
+      "SHA256": "B39219ED3C3463A3B4C54039ECE7602E091AA56F72264B128B1A94BCDC65F926",
+      "Origin": "Frozen Nexus file 31 text/script/metadata entry"
+    },
+    {
+      "Path": "player-package/DEPENDENCIES.json",
+      "Bytes": 757,
+      "SHA256": "17FCC7B1AA52CC55A4BC09DC1590A5019EEAE8B5D321D0D717DB347F766FDFC2",
+      "Origin": "Frozen Nexus file 31 text/script/metadata entry"
+    },
+    {
+      "Path": "player-package/PACKAGE-CONTENTS.json",
+      "Bytes": 2119,
+      "SHA256": "CB631BB887E2823A8206C3ED2B176D4C6C0A052A4943A9EB65847789D1E4C9F4",
+      "Origin": "Frozen Nexus file 31 text/script/metadata entry"
+    },
+    {
+      "Path": "player-package/SAVE-TRANSFER.md",
+      "Bytes": 11793,
+      "SHA256": "BC212033431933C2DC2704F5F86415381F7E6E78852219E20649F62A65D6C40F",
+      "Origin": "Frozen Nexus file 31 text/script/metadata entry"
+    },
+    {
+      "Path": "player-package/Transfer-VeteranSave.ps1",
+      "Bytes": 28869,
+      "SHA256": "0008C05A8C5A58AA1036D26F681D02865E9A71477A3F865179339C9D402CA180",
+      "Origin": "Frozen Nexus file 31 text/script/metadata entry"
+    },
+    {
+      "Path": "player-package/USER_GUIDE.md",
+      "Bytes": 47178,
+      "SHA256": "6D02E77EEB6E781D3F9DFBFFB4F08AC740DD8C721CDA7165D823A26F469ABF9F",
+      "Origin": "Frozen Nexus file 31 text/script/metadata entry"
+    },
+    {
+      "Path": "README.md",
+      "Bytes": 2958,
+      "SHA256": "66003CC6EC127EB5DD0CAA728E779FFC82708657B408B22A3D54C16E02818F1E",
+      "Origin": "New moderator review documentation/configuration"
+    },
+    {
+      "Path": "REVIEW.md",
+      "Bytes": 4518,
+      "SHA256": "3330D8D3F38765162749850EC1BFFDA10E3B8FAAE4B599D3146A11E5B7307F1A",
+      "Origin": "New moderator review documentation/configuration"
+    },
+    {
+      "Path": "scripts/Build.ps1",
+      "Bytes": 3729,
+      "SHA256": "CB32F5A09BC76405DFF32881391523539E022B2F50ACD04023C878BFCCBD1CAF",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "scripts/Transfer-VeteranSave.ps1",
+      "Bytes": 28869,
+      "SHA256": "0008C05A8C5A58AA1036D26F681D02865E9A71477A3F865179339C9D402CA180",
+      "Origin": "Frozen Nexus file 31 text/script/metadata entry"
+    },
+    {
+      "Path": "src/VeteranSoldiers.Patcher/AssemblyPatchTransaction.cs",
+      "Bytes": 2758,
+      "SHA256": "144E7FEBD277C19E4016DC8DF22493765BAD353D605CD3E66B3553107E9637F5",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers.Patcher/CombatPatcher.cs",
+      "Bytes": 24187,
+      "SHA256": "9A5BAFE9D3F0ABB67F8B1D0EAF1C25526394133DAA9AC60BBEE56B52116CBC74",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers.Patcher/MedicalPatcher.cs",
+      "Bytes": 9275,
+      "SHA256": "FCE711966732E020E72BC3BD0FE1ABFD726CF66985373FA22C816F90A39B9487",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers.Patcher/Patcher.cs",
+      "Bytes": 3316,
+      "SHA256": "697E986447B4A308A6CE3893EA27544A41A757E55F45EA891817F5FEF408A8C1",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers.Patcher/PatcherConfiguration.cs",
+      "Bytes": 1586,
+      "SHA256": "5DDB4AFB78F4C94967BB692112949CF093292C755C1B97C9D911D2B9CA3AD92C",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers.Patcher/PreparedRequestArchetype.cs",
+      "Bytes": 4526,
+      "SHA256": "523832E030CD40DA8A9C06B018C8CC444E28A4AADFE4B5C22CF1A5137A25F5B8",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers.Patcher/VeteranSoldiers.Patcher.csproj",
+      "Bytes": 571,
+      "SHA256": "766F4EF77D6B37B59ABA1D82E325C32732297D694B17104DD00EB85E6EF0805E",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/ArmySummary.cs",
+      "Bytes": 1484,
+      "SHA256": "CB553C93EB9D505C712951A9F8A83777884C06A5ECDCB752E77001091F93A363",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/Bootstrap.cs",
+      "Bytes": 6521,
+      "SHA256": "BB004FEF1DC63106A8F273A49D42863190F5B8D300D42E938DD94E0DEC05A33E",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/ChronicleModels.cs",
+      "Bytes": 12333,
+      "SHA256": "F866380C4A3425483D01FCF5E4E66148D01145FE756333C0158A6A5C4B30F687",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/ChronicleXml.cs",
+      "Bytes": 7453,
+      "SHA256": "49997221A622BDE3B91FC2A078AC38EC9592A9C5F3952BC8AFC75042E3A03470",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/CombatBridge.cs",
+      "Bytes": 1462,
+      "SHA256": "EA2D6066754375FD78B056298491108D7F61A5A7E537105701B7ECBC9AD729DF",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/CompatibilityDiagnostics.cs",
+      "Bytes": 21495,
+      "SHA256": "3B4016510A9891F46425EBBD09CE910C3CD9CE310CBD4F8BB69DE01D93C2309D",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/HallResearchAliases.cs",
+      "Bytes": 5074,
+      "SHA256": "4C2ABC3B544DDD987E8725D80EDE3A60A5571A612551A7F57EC392786CA24180",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/HallRules.cs",
+      "Bytes": 1986,
+      "SHA256": "5164E94B5DF605265BEFE6550677F80119CE69E1451347518665626FB30E57AE",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/HallTrainingIdleGuard.cs",
+      "Bytes": 1205,
+      "SHA256": "99ED40CAA0A1E3B26A98D763A79CA1FD0640D3550762F3671F4AB2FAFA226CD1",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/HallVisuals.cs",
+      "Bytes": 18830,
+      "SHA256": "D009987E030A2BB56E1D54AB3877C146C3B46BA330086F2DBE532E663712F107",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/ModSettings.cs",
+      "Bytes": 8302,
+      "SHA256": "E958C304F3B94CED1AAAA210116F590A3D9809AC6E23E45074EC57CAB99DEC36",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/Persistence.cs",
+      "Bytes": 25871,
+      "SHA256": "6705A530807F068A5197626582B60BF49F91DA7290971CF60FB42554CBC7D7B7",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/PersistenceModels.cs",
+      "Bytes": 14082,
+      "SHA256": "0B985D2BF1CD61ED2542EC2D8043B15DFD26576C3356C2A79BA54FF0EAF84C41",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/PortableSave.cs",
+      "Bytes": 8109,
+      "SHA256": "AF76976D9731FF141CCCC96C1972FD683C06D57F1CFD8D6BD292F4EDFDFC8AC3",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/Progression.cs",
+      "Bytes": 4099,
+      "SHA256": "98E1997A92971EB24F7CB47A05F566282058B8C446DC52089B25CD2A21E0A00B",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/PromotionQueue.cs",
+      "Bytes": 2891,
+      "SHA256": "0C2BAC4433EF9571E5B041F24975C844E591882A4BF003839C5C90B2DE08FB84",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/RuntimeBenchmark.cs",
+      "Bytes": 34078,
+      "SHA256": "E2AA29F544AAF2EEB8B3831B319BE93D71674CAE4212918BCC07CC125636135E",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/RuntimeHallTest.Construction.cs",
+      "Bytes": 13303,
+      "SHA256": "6C73A98576B92DEC61C7DDA84EEFE190602A6DED26D9101B3A21A82D0BB6BA1A",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/RuntimeHallTest.cs",
+      "Bytes": 30447,
+      "SHA256": "0A579426763B74FE0B084B2F9F00C1B78A9D5AEBAFB3FECDEBAD581855AB95B0",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/RuntimeHallTest.Evidence.cs",
+      "Bytes": 30153,
+      "SHA256": "673F90BB8871BBEE76CD1482ED5AE65161E81DA719DCD14291CED4B580CC8255",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/RuntimeSelfTest.cs",
+      "Bytes": 55707,
+      "SHA256": "DA68C832443852A0A7E5816411359C04E885963A83D77BEC0EB339F5ADBAE4F3",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/RuntimeVisualTest.cs",
+      "Bytes": 33595,
+      "SHA256": "80C86D509953CD60CE7684A1536EB84CA6DB742263F1FF87476C66850D0616CA",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/SaveCaptureBatch.cs",
+      "Bytes": 3124,
+      "SHA256": "B66B0DCA38D8EB7B2270CFD5D63C69027B3250FFADAAC201034827B3A1AB2ED4",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/Specializations.cs",
+      "Bytes": 1032,
+      "SHA256": "B4DB7F63372A54EE0E5F1E15956C8E1E6A0BDD72E70EBC058CD562A609FBB0E6",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranArmy.cs",
+      "Bytes": 8536,
+      "SHA256": "192669CB34C01D9A5FC59F1E2D30F9D66244248CEFB1FA9D6A69001EFF9ECC34",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranArmyWindow.cs",
+      "Bytes": 58708,
+      "SHA256": "35F9E8B48A169BB0B600715CA975442BD890988B2421FC306B4F58CC1B5D491E",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranChronicle.cs",
+      "Bytes": 6724,
+      "SHA256": "5FFAE92DFCAD3A3E676DBF39D6BDB2F912910BCE6DEA28AD46100FEA4D359253",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranHall.cs",
+      "Bytes": 49443,
+      "SHA256": "992812B1FEA582DCFAC46DDF98ECE394F0FB51D06E6CCF2EE11CA737D7B2BA59",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranHallResearch.cs",
+      "Bytes": 6577,
+      "SHA256": "A47EC6B85F71061B49C5B3B3F97FE69A328C7F097CF856D20F41BC33E3A45BA0",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranHealth.cs",
+      "Bytes": 7293,
+      "SHA256": "652A1B741E2276439081FB3289324B539223F08FA0F6EDBE8D577CBAF4529874",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranHudLayout.cs",
+      "Bytes": 1918,
+      "SHA256": "1D780E6753E36D98D07F4126B04DF93A7964E77CDBC9303D3E63859C23489CF1",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranNativePanel.cs",
+      "Bytes": 48573,
+      "SHA256": "4CADAE8FA231A907A76A7A041F5EF888127BF1B88080616534B5C8FD18E08594",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranPromotionFeed.cs",
+      "Bytes": 11879,
+      "SHA256": "7204D197546F1F35F72F1D22518910831BAD96479F8E2CE648C87890BD97AA2D",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranRuntime.cs",
+      "Bytes": 16887,
+      "SHA256": "17EE1D98F38064B185BA42B5C3882C2382FE55D797E71D3DE31EC0838CBD235E",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranSoldiers.csproj",
+      "Bytes": 3599,
+      "SHA256": "A29F9849692C2EE79EF8E63CFFB6C30F176C1D4AF6E68C7C254AA058DC967A81",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranText.cs",
+      "Bytes": 5309,
+      "SHA256": "2D129949DF0110B496DDDD4B3658E436CC6D1FB11EEEEE30A3ACABE0CFC36DA3",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranUiBridge.cs",
+      "Bytes": 11948,
+      "SHA256": "B04EA999CC38B3ECCC3CA293FC7ADEB9F6C5DAB80D23285F11E7B739F7AB4DDD",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranVisualAssets.cs",
+      "Bytes": 6325,
+      "SHA256": "42BC400CCBF869BA319D90CDEF43869259495FDD925CF305A30F25081A5A7956",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "src/VeteranSoldiers/VeteranWorldInsignias.cs",
+      "Bytes": 12953,
+      "SHA256": "6B83866E4CDE6D3B05EB112ADC2ED908FA30FEB54FE01873842545CF6CA8BD0C",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Chronicle.Tests/Chronicle.Tests.csproj",
+      "Bytes": 651,
+      "SHA256": "692F356C980DE81BB4566D8C061AE89119640752449A786ECA1D5F7362525904",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Chronicle.Tests/Fixture.cs",
+      "Bytes": 2312,
+      "SHA256": "7AB30C2F8B9D87992033CE838D8D6A8AA392F663393EB0B2A1E719488E2472AF",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Chronicle.Tests/Program.cs",
+      "Bytes": 6229,
+      "SHA256": "BECE3DB3D144A7FB5A4FDC79775CABEDE9B524C9EBA1E3702E5D25DF84E8AC9B",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Compatibility.Tests/Compatibility.Tests.csproj",
+      "Bytes": 1075,
+      "SHA256": "C29CD47BE048B4797DDACA29F710E9D834A40389332A1F0164B8B65017097F23",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Compatibility.Tests/Fixture.cs",
+      "Bytes": 5677,
+      "SHA256": "1A3C54D07BE87D63163A4746C90163A119330A50CFB8680A0EBE8B11CFED9316",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Compatibility.Tests/Program.cs",
+      "Bytes": 6360,
+      "SHA256": "14758594BA22181003DF3E43816FA9ED26DB0DF3D8F33BCAD5AFC068680331B3",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Compatibility.Tests/README.md",
+      "Bytes": 2007,
+      "SHA256": "2891CC0783A467F50AEBE8173400D3398437EDBEA0E0138EA73BD6593580B65F",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Diagnostics.Tests/Diagnostics.Tests.csproj",
+      "Bytes": 967,
+      "SHA256": "9E80C7B4AAE59E0B580E52A10FC9B19E83C9ADF0C978251C05DCDC7825F282D8",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Diagnostics.Tests/Program.cs",
+      "Bytes": 10045,
+      "SHA256": "848ADBC1EB595CE40B2FB18A2E1967B29D55C4938521069B5AE2B38873EAD919",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Diagnostics.Tests/README.md",
+      "Bytes": 3091,
+      "SHA256": "9CD37CF37E0530A5B323DC881EF06CDA537DD4FE9C845607A09F60D54D6011B6",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Hall.Tests/Hall.Tests.csproj",
+      "Bytes": 371,
+      "SHA256": "3DF3B9548506412F9A97FFC3A6CE8511D65D8C919C415F9DE38D92A3C2F4A53F",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Hall.Tests/Program.cs",
+      "Bytes": 6299,
+      "SHA256": "CA7AD0D8C5A039F5A9AF8E2BF0EFE09096E3BAB104354982FC8C6BA03BD93E53",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Hall.Tests/TrainingQueryFixture.cs",
+      "Bytes": 1137,
+      "SHA256": "0E1F5CAB7E65FB124859638862E716B56F060ACD29ECC50E44746878447BCF97",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/HallResearch.Tests/HallResearch.Tests.csproj",
+      "Bytes": 1023,
+      "SHA256": "6EBA6185506B528AD9643811890E6076B05C0E4A5BFBB5D509BBC4B6387F14BD",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/HallResearch.Tests/HallResearchStartupTests.cs",
+      "Bytes": 4239,
+      "SHA256": "EC80A466B0D10F6D5BD0457535727B4A33E042173B5FCD0803AE55AB4B172A1E",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/HallResearch.Tests/Program.cs",
+      "Bytes": 4894,
+      "SHA256": "7ADDFC9AE2D1DC127228EA8B7B4E8413AA874C38D619B472D7ADECE04A7D0701",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/HallResearch.Tests/StartupFixture.cs",
+      "Bytes": 3931,
+      "SHA256": "936DD0D5628207CD9A7D90F8903FE5F1A8B908B6A84F0DF0DC6A204C350A4E45",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Persistence.Tests/ChronicleTests.cs",
+      "Bytes": 6655,
+      "SHA256": "A1AA0478600464D30AB1D7CD03202DDBD22773290648F4E884DA15313D96A90E",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Persistence.Tests/HealthLifecycleTests.cs",
+      "Bytes": 9314,
+      "SHA256": "56846B30F3A605313084932EC5A4C20FFAA37B610ADAA8BBA5DC1DEF543FA118",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Persistence.Tests/HealthTestWorld.cs",
+      "Bytes": 5007,
+      "SHA256": "931F6FF9EAA9670D0F6A3759C8D60E5A89CEC25F1877A6FE07DAF3E7E5403024",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Persistence.Tests/Persistence.Tests.csproj",
+      "Bytes": 1146,
+      "SHA256": "83F236AF69215F66ED23AC1981FEA39AD610D3118527727BA67FF307C12D2587",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Persistence.Tests/PortableSaveTests.cs",
+      "Bytes": 9941,
+      "SHA256": "331AD407019ED44F976A1DAFB38EBCB8AD9C04AAFD52902260806A5439D31AE3",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Persistence.Tests/Program.cs",
+      "Bytes": 7613,
+      "SHA256": "8B28CFB23FA3D40B52C27DD2EB2BCDA4F2A8E5B0B373DA0D8F2C79940C585DDC",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Persistence.Tests/SaveCaptureBatchTests.cs",
+      "Bytes": 5614,
+      "SHA256": "1398CE4942E13FC8FCEB37DA35E1D6C0B5BC7C01DFF720AFAF9DCCB2DE41C1E5",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Progression.Tests/HudLayoutTests.cs",
+      "Bytes": 2163,
+      "SHA256": "852AA86A7362F103CBB8D1BAAA332D9E24DA09F10F0C8EF79475E83AD012A3ED",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Progression.Tests/Program.cs",
+      "Bytes": 10626,
+      "SHA256": "6DCADEB14E4563549B27784FDEFD0F522841117998E031A8A3B1485B7092AFD5",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Progression.Tests/Progression.Tests.csproj",
+      "Bytes": 923,
+      "SHA256": "F71D4C2A7024FAE01D58AC3B9B3A40DE143039DE8E0BBC8CE757D504AA8B5606",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/Test-SaveTransfer.ps1",
+      "Bytes": 20698,
+      "SHA256": "5FD795CEA6102429B884820FF1796B591F7131C63B3BC8677C5F1350700B77A0",
+      "Origin": "Local implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce; same unchanged regression script"
+    },
+    {
+      "Path": "tests/VeteranSoldiers.Patcher.Tests/BridgeProtocolTests.cs",
+      "Bytes": 5987,
+      "SHA256": "6443E139956594866704614752B3550950FB4418D54A88546AB3C29DB8D4D9CF",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/VeteranSoldiers.Patcher.Tests/PreparedArchetypeTests.cs",
+      "Bytes": 1860,
+      "SHA256": "6AC4C54AA49EA43764234EDFB7319769DB432B0469303E957416D552ABE26004",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/VeteranSoldiers.Patcher.Tests/Program.cs",
+      "Bytes": 26473,
+      "SHA256": "3507A58767605C50C3C4EE112A39C4850C146084349A361C6EA514C34DD24D9F",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/VeteranSoldiers.Patcher.Tests/TransactionTests.cs",
+      "Bytes": 7163,
+      "SHA256": "D1E1D5DE6CFB2F9EAA2FDF0FF06EDD811BBA8C5EA84C336EFE55A62BDA38ABF7",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "tests/VeteranSoldiers.Patcher.Tests/VeteranSoldiers.Patcher.Tests.csproj",
+      "Bytes": 520,
+      "SHA256": "C54F2FCF1B8050144F8169BBE4596EC1B5D484A9B6C04F7C7332B7753D20DF9E",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    },
+    {
+      "Path": "VeteranSoldiers.sln",
+      "Bytes": 6797,
+      "SHA256": "D89545372A8B3A19060A453FCBC08F5721391AAC347776C8B64743EAFA286D2C",
+      "Origin": "Previously shared own-source snapshot; implementation a3cae5f77d3205c50ba06588483573eb5a8e9dce"
+    }
+  ],
+  "ManifestSelfExcluded": true,
+  "History": "New source import only; no original development history, logs or private correspondence",
+  "ThirdPartyBuildDependenciesIncluded": false
+}

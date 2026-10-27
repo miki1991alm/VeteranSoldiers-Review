@@ -1,0 +1,63 @@
+{
+  "SchemaVersion": 1,
+  "Mod": "Veteran Soldiers",
+  "Author": "Kirapp",
+  "Version": "1.0.1",
+  "Target": "Diplomacy is Not an Option / Windows x64",
+  "Runtime": {
+    "AssemblyVersion": "1.0.1.0",
+    "ProductVersion": "1.0.1+6036db7e38a11b0f1d664d5c3b02f21c43f6a8e7"
+  },
+  "Patcher": {
+    "AssemblyVersion": "1.0.1.0",
+    "ProductVersion": "1.0.1+6036db7e38a11b0f1d664d5c3b02f21c43f6a8e7"
+  },
+  "Configuration": "Example only; no live BepInEx/config file is included.",
+  "Files": [
+    {
+      "Path": "BepInEx/ecs_plugins/VeteranSoldiers.dll",
+      "SHA256": "8859956744FB5863A18FD9DD07BC460B4C041DA52C0C5E557D7F064AF0055526",
+      "Bytes": 256000
+    },
+    {
+      "Path": "BepInEx/patchers/VeteranSoldiers.Patcher.dll",
+      "SHA256": "6830409958812BB512387A7EC65A9AF8F3FFB880EE309490EA8AFE45B9D0715D",
+      "Bytes": 40448
+    },
+    {
+      "Path": "VeteranSoldiers/CHANGELOG.md",
+      "SHA256": "59F7F87A5F90F66205C2E0AE2DEEB68F8CB122E50EBC5651F9AD52CACC01FE12",
+      "Bytes": 19518
+    },
+    {
+      "Path": "VeteranSoldiers/com.veteransoldiers.mod.cfg.example",
+      "SHA256": "6915DF05A55693F480A0ADF86DF554FF6E8CB599D58D1859BDCB29969192DC24",
+      "Bytes": 1378
+    },
+    {
+      "Path": "VeteranSoldiers/CREDITS_AND_PERMISSIONS.md",
+      "SHA256": "B39219ED3C3463A3B4C54039ECE7602E091AA56F72264B128B1A94BCDC65F926",
+      "Bytes": 3199
+    },
+    {
+      "Path": "VeteranSoldiers/DEPENDENCIES.json",
+      "SHA256": "17FCC7B1AA52CC55A4BC09DC1590A5019EEAE8B5D321D0D717DB347F766FDFC2",
+      "Bytes": 757
+    },
+    {
+      "Path": "VeteranSoldiers/SAVE-TRANSFER.md",
+      "SHA256": "BC212033431933C2DC2704F5F86415381F7E6E78852219E20649F62A65D6C40F",
+      "Bytes": 11793
+    },
+    {
+      "Path": "VeteranSoldiers/Transfer-VeteranSave.ps1",
+      "SHA256": "0008C05A8C5A58AA1036D26F681D02865E9A71477A3F865179339C9D402CA180",
+      "Bytes": 28869
+    },
+    {
+      "Path": "VeteranSoldiers/USER_GUIDE.md",
+      "SHA256": "6D02E77EEB6E781D3F9DFBFFB4F08AC740DD8C721CDA7165D823A26F469ABF9F",
+      "Bytes": 47178
+    }
+  ]
+}

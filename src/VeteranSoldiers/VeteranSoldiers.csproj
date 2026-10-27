@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>VeteranSoldiers</AssemblyName>
+    <Version>$(VeteranSoldiersVersion)</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(IncludeTestHarness)' == 'true'">
+    <DefineConstants>$(DefineConstants);VETERAN_TEST_HARNESS</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(IncludeTestHarness)' != 'true'">
+    <Compile Remove="RuntimeSelfTest.cs;RuntimeVisualTest.cs;RuntimeBenchmark.cs;RuntimeHallTest.cs;RuntimeHallTest.*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DNO.Main"><HintPath>$(GameManaged)\DNO.Main.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.Entities"><HintPath>$(GameManaged)\Unity.Entities.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.Collections"><HintPath>$(GameManaged)\Unity.Collections.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.Jobs"><HintPath>$(GameManaged)\Unity.Jobs.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.Mathematics"><HintPath>$(GameManaged)\Unity.Mathematics.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.Mathematics.Extensions"><HintPath>$(GameManaged)\Unity.Mathematics.Extensions.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.Transforms"><HintPath>$(GameManaged)\Unity.Transforms.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.Rendering.Hybrid"><HintPath>$(GameManaged)\Unity.Rendering.Hybrid.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(GameManaged)\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameManaged)\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(GameManaged)\UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UIModule"><HintPath>$(GameManaged)\UnityEngine.UIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.TextMeshPro"><HintPath>$(GameManaged)\Unity.TextMeshPro.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(GameManaged)\UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.InputLegacyModule"><HintPath>$(GameManaged)\UnityEngine.InputLegacyModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(GameManaged)\UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="BepInEx"><HintPath>$(BepInExCore)\BepInEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(BepInExCore)\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Newtonsoft.Json" Condition="'$(IncludeTestHarness)' == 'true'"><HintPath>$(GameManaged)\Newtonsoft.Json.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule" Condition="'$(IncludeTestHarness)' == 'true'"><HintPath>$(GameManaged)\UnityEngine.ScreenCaptureModule.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

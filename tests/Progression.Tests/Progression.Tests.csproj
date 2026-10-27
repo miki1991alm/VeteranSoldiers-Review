@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/VeteranSoldiers/ChronicleModels.cs" Link="ChronicleModels.cs" />
+    <Compile Include="../../src/VeteranSoldiers/ChronicleXml.cs" Link="ChronicleXml.cs" />
+    <Compile Include="../../src/VeteranSoldiers/Progression.cs" Link="Progression.cs" />
+    <Compile Include="../../src/VeteranSoldiers/Specializations.cs" Link="Specializations.cs" />
+    <Compile Include="../../src/VeteranSoldiers/ArmySummary.cs" Link="ArmySummary.cs" />
+    <Compile Include="../../src/VeteranSoldiers/VeteranText.cs" Link="VeteranText.cs" />
+    <Compile Include="../../src/VeteranSoldiers/PromotionQueue.cs" Link="PromotionQueue.cs" />
+    <Compile Include="../../src/VeteranSoldiers/VeteranHudLayout.cs" Link="VeteranHudLayout.cs" />
+  </ItemGroup>
+</Project>

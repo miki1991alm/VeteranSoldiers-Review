@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/VeteranSoldiers/PersistenceModels.cs" Link="PersistenceModels.cs" />
+    <Compile Include="../../src/VeteranSoldiers/PortableSave.cs" Link="PortableSave.cs" />
+    <Compile Include="../../src/VeteranSoldiers/ChronicleModels.cs" Link="ChronicleModels.cs" />
+    <Compile Include="../../src/VeteranSoldiers/ChronicleXml.cs" Link="ChronicleXml.cs" />
+    <Compile Include="../../src/VeteranSoldiers/SaveCaptureBatch.cs" Link="SaveCaptureBatch.cs" />
+    <Compile Include="../../src/VeteranSoldiers/Progression.cs" Link="Progression.cs" />
+    <Compile Include="../../src/VeteranSoldiers/Specializations.cs" Link="Specializations.cs" />
+    <Compile Include="../../src/VeteranSoldiers/VeteranHealth.cs" Link="VeteranHealth.cs" />
+  </ItemGroup>
+</Project>

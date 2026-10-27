@@ -1,0 +1,79 @@
+# Reference example only. The mod creates its configuration on first launch.
+# Do not overwrite an existing BepInEx/config/com.veteransoldiers.mod.cfg.
+# See USER_GUIDE.md before changing settings. These are the packaged defaults.
+
+[Balance]
+MeleeMultiplier = 1
+RangedMultiplier = 1
+SiegeMultiplier = 0.5
+
+[Experience]
+ExperienceFromDamage = true
+ExperienceFromKills = true
+ExperienceMultiplier = 1
+DamagePerExperience = 5
+KillExperience = 5
+PowerfulKillMultiplier = 1.5
+StructureExperience = true
+StructureMultiplier = 0.25
+
+[General]
+Enabled = true
+Persistence = true
+DebugLogging = false
+
+[Interface]
+Language = English
+ShowExperienceBar = true
+ShowVeteranInsignias = true
+ShowPanel = true
+ShowPromotionNotifications = true
+ToggleInterfaceShortcut = F8
+ArmyShortcut = F9 + LeftControl
+DiagnosticsShortcut = F10 + LeftControl
+PanelScale = 1
+
+[Specializations]
+Enabled = true
+
+[Limits]
+MaxDamagePerHit = 100000
+MaxHealth = 100000
+
+[Rank1]
+Name =
+Experience = 0
+DamageBonus = 0
+HealthBonus = 0
+
+[Rank2]
+Name =
+Experience = 100
+DamageBonus = 0.05
+HealthBonus = 0
+
+[Rank3]
+Name =
+Experience = 300
+DamageBonus = 0.1
+HealthBonus = 0.1
+
+[Rank4]
+Name =
+Experience = 700
+DamageBonus = 0.15
+HealthBonus = 0.2
+
+[Rank5]
+Name =
+Experience = 1500
+DamageBonus = 0.25
+HealthBonus = 0.3
+
+[Ranks]
+MaxLevel = 5
+
+[Units]
+EnableSiegeUnits = true
+EnableEnemyVeterancy = false
+IncludedUnitTypes = *

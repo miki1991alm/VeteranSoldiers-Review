@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!-- The installed loader's HarmonyX/MonoMod targets CLR 4/Mono; its method
+         invoker does not support CoreCLR 8. Do not replace the shipped library. -->
+    <TargetFramework>net48</TargetFramework>
+    <UseAppHost>false</UseAppHost>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/VeteranSoldiers/Bootstrap.cs" Link="Bootstrap.cs" />
+    <Compile Include="../../src/VeteranSoldiers/Progression.cs" Link="Progression.cs" />
+    <Reference Include="0Harmony"><HintPath>$(BepInExCore)\0Harmony.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="Mono.Cecil"><HintPath>$(BepInExCore)\Mono.Cecil.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="MonoMod.RuntimeDetour"><HintPath>$(BepInExCore)\MonoMod.RuntimeDetour.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="MonoMod.Utils"><HintPath>$(BepInExCore)\MonoMod.Utils.dll</HintPath><Private>true</Private></Reference>
+  </ItemGroup>
+</Project>

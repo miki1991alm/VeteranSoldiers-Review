@@ -1,0 +1,22 @@
+{
+  "Loader": "BepInEx 5.4.23.2 win64 with Unity ECS Support",
+  "Architecture": "Windows x64",
+  "RequiredVariant": "Unity ECS Support",
+  "StandardBepInExIsEquivalent": false,
+  "IncludedInThisArchive": false,
+  "ArchiveSHA256": "4402C22962E66353A592483990A7F9D71F8A5F5D10B95EFAF52A6EB2C373956A",
+  "RequiredFiles": [
+    {
+      "Path": "winhttp.dll",
+      "SHA256": "0136F7552BD0FC00A8C17E611A7909C8326B5F5184D53FAD433E98700D6D4445"
+    },
+    {
+      "Path": "BepInEx/core/BepInEx.dll",
+      "SHA256": "C65B42034BC8FFB9F0B336E416DC3884E3F99FC5A5A89EB1F2FF7868412322CD"
+    },
+    {
+      "Path": "BepInEx/core/BepInEx.Preloader.dll",
+      "SHA256": "116F8B879B1B87566F5CE30106FC5D5718DA69D3870315D184A4460379A765C7"
+    }
+  ]
+}
